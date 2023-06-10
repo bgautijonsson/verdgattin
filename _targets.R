@@ -7,10 +7,15 @@ tar_option_set(
         "lubridate",
         "rjson",
         "rvest",
-        "readr"
-    )
+        "readr",
+        "stringr"
+    ) 
 )
 
 list(
-    
+    tar_target(data, get_data())
 )
+
+
+
+
