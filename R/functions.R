@@ -1,4 +1,4 @@
-#' Title
+#' Function to download data from verdgattin.is
 #'
 #' @return
 get_data <- function() {
